@@ -26,6 +26,9 @@ public class C01_PagesIlkTest {
         String actualAramaSonucyazisi= amazonPage.aramaSonucuElementi.getText();
         Assert.assertTrue(actualAramaSonucyazisi.contains(expectedicerik));
 
+
+
+
         // sayfayi kapatalim
         Driver.closeDriver();
     }
