@@ -25,7 +25,7 @@ public class C03_DataProvider {
     }
 
     @Test(dataProvider = "aranacaklarListesi")
-    public void test01(String aranacakKelime){
+    public void test01(String aranacakKelime){ // parametreli olacak test methodum
 
         // amazon anasayfaya gidin
 
