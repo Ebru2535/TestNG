@@ -1,9 +1,12 @@
 package pages;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utilities.Driver;
+
+import java.util.List;
 
 public class AmazonPage {
 
@@ -31,5 +34,19 @@ public class AmazonPage {
 
     @FindBy(xpath = "(//div[@class='sg-col-inner'])[1]")
     public WebElement aramaSonucuElementi;
+
+     @FindBy(xpath = "//table/tbody/tr[1]/td")
+    public List<WebElement> sutunSayisiElementi;
+
+     public String dataGetir(int satirNo, int sutunNo){
+         String dinamikXpath="//table/tbody/tr["+satirNo+"]/td["+sutunNo+"]";
+
+         WebElement istenenDataElemnti=Driver.getDriver().findElement(By.xpath(dinamikXpath));
+         return istenenDataElemnti.getText();
+
+     }
+
+    @FindBy(xpath = "//table/tbody/tr/td")
+    public List<WebElement> tabloList;
 
 }

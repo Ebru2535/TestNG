@@ -138,6 +138,7 @@ public class ReusableMethods {
 
         WebElement element = wait.until(new Function<WebDriver, WebElement>() {
             public WebElement apply(WebDriver driver) {
+
                 return webElement;
             }
         });
