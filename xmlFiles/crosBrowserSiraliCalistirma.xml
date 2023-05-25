@@ -31,9 +31,9 @@
 
         <classes>
 
-            <class name="tests.day15_POM.C05_QualitydemyLoginTesti"></class>
-            <class name="tests.day15_POM.C06_QualitydemyNegatifLoginTesti"></class>
-            <class name="tests.day16_POM_Assertions.C03_SoftAssertion"></class>
+            <class name="tests.day19_crossBrowserTesting.C01_AmazonSearch"></class>
+            <class name="tests.day19_crossBrowserTesting.C02_AlertsTesti"></class>
+            <class name="tests.day19_crossBrowserTesting.C03_BasicAuthentication"></class>
 
         </classes>
 
@@ -44,9 +44,10 @@
 
     <classes>
 
-        <class name="tests.day15_POM.C05_QualitydemyLoginTesti"></class>
-        <class name="tests.day15_POM.C06_QualitydemyNegatifLoginTesti"></class>
-        <class name="tests.day16_POM_Assertions.C03_SoftAssertion"></class>
+        <class name="tests.day19_crossBrowserTesting.C01_AmazonSearch"></class>
+        <class name="tests.day19_crossBrowserTesting.C02_AlertsTesti"></class>
+        <class name="tests.day19_crossBrowserTesting.C03_BasicAuthentication"></class>
+
 
     </classes>
 
@@ -58,9 +59,10 @@
 
     <classes>
 
-        <class name="tests.day15_POM.C05_QualitydemyLoginTesti"></class>
-        <class name="tests.day15_POM.C06_QualitydemyNegatifLoginTesti"></class>
-        <class name="tests.day16_POM_Assertions.C03_SoftAssertion"></class>
+        <class name="tests.day19_crossBrowserTesting.C01_AmazonSearch"></class>
+        <class name="tests.day19_crossBrowserTesting.C02_AlertsTesti"></class>
+        <class name="tests.day19_crossBrowserTesting.C03_BasicAuthentication"></class>
+
 
     </classes>
 
