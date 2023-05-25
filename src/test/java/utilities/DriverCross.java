@@ -9,10 +9,10 @@ import org.openqa.selenium.safari.SafariDriver;
 
 import java.time.Duration;
 
-public class DriverCrosss {
+public class DriverCross {
 
         private static WebDriver driver;
-        private DriverCrosss(){
+        private DriverCross(){
         /* Singleton pattern kullanilarak istenmeyen yontemlerle
            driver objesine erisilmesini engelledik
 
@@ -27,7 +27,7 @@ public class DriverCrosss {
             browser= browser== null? ConfigReader.getProperty("browser") : browser;
              // bu satır bizim emniyet subabımız
             // eger parametre olarak null gonderilirse
-           // configration.properties' deki browser değerini alacak
+           // configration.properties' deki browser değerini alacak-
 
             if(driver == null){
 
@@ -79,4 +79,4 @@ public class DriverCrosss {
 
 
 
-}
+
